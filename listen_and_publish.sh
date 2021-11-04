@@ -1,0 +1,1 @@
+ipfs pubsub sub socialpost | xargs node social-post-cli.js {}
