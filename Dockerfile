@@ -1,2 +1,4 @@
 FROM node:17
-CMD ["listen_and_publish.sh"]
+ADD . .
+RUN yarn install
+ENTRYPOINT ["bash","listen_and_publish.sh"]

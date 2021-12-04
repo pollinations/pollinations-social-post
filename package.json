@@ -1,0 +1,20 @@
+{
+  "name": "pollinations-social-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mature.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ipfs pubsub sub socialpost | xargs node social-post-cli.js {}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollinations/pollinations-social-post.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollinations/pollinations-social-post/issues"
+  },
+  "homepage": "https://github.com/pollinations/pollinations-social-post#readme"
+}
